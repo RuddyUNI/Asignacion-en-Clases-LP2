@@ -1,3 +1,16 @@
+#Leer un número entero y determinar si es negativo.
+
+num = int(input("Ingresa un numero: "))
+
+if num < 0:
+    print("El numero", num, "es negativo")
+else:
+    print("El numero ",num," es positivo")
+
+print("")
+print("--------------------------------------------------------------------")
+print("")
+
 # Leer un numero entero y determinar cuantos dígitos tiene
 
 numero = int(input("Ingresa un número entero: "))
